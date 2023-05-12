@@ -1,0 +1,118 @@
+.text-area {
+    -fx-background-color: rgba(80,89,119,0.4);
+    -fx-text-fill: gold;
+    -fx-font-size: 18;
+    -fx-background-radius: 30;
+
+
+}
+
+#textFlow{
+    -fx-background-color: rgba(80,89,119,0.4);
+    -fx-text-fill: gold;
+    -fx-font-size: 18;
+    -fx-background-radius: 30;
+
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+
+
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;-fx-border-radius: 15;
+
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;-fx-border-radius: 15;
+
+}
+#pane {
+    -fx-background-image: url("image.png");
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-overflow: hidden;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 520 600;
+    -fx-background-position: center center;
+
+}
+
+
+
+
+
+.text-field{
+    -fx-background-color: transparent  ;
+    -fx-max-height: 32;
+    -fx-font-size: 16;
+    -fx-font-weight: NORMAL;
+    -fx-font-family: "Arial Black";
+    -fx-border-color: blue;
+    -fx-text-fill: gold ;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+
+}
+.label{
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: #2cc3ff;
+
+}
+.button{
+    -fx-max-height: 32;
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-background-radius: 50;
+    -fx-font-weight: BOLD;
+
+
+
+}
+.hyperlink{
+    -fx-text-fill: gold;
+    -fx-font-size: 20;
+    -fx-border-color: transparent;
+}
+#text{
+    -fx-text-fill: gold;
+    -fx-font-size: 20;
+    -fx-font-family: "Times New Roman";
+
+
+
+}
+#b1{
+    -fx-font-size: 20;
+}
+#b2{
+    -fx-background-color: transparent;
+    -fx-min-width: 40;
+    -fx-background-radius: 10;
+
+
+}
+#b2:hover{
+    -fx-background-color: #640086;
+    -fx-cursor: progress;
+}
+.button:hover{
+    -fx-background-color: darkblue;
+}
+
+
+
+#rectangle{
+  -fx-border-radius: 30;
+    -fx-background-radius: 30;
+    -fx-border-color: red;
+    -fx-background-color: transparent;
+
+
+}
+
